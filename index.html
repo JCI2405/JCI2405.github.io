@@ -2,30 +2,77 @@
 <html lang="es">
     <head>
         <title>
-            My site!
+            Mi página web!
         </title>
         <style>
             h1 {
                 color: blue;
             }
             
-            div {
-                background-color: green;
-                width: 500px;
-                height: auto;
+            #Saludo {
+                background-color: antiquewhite;
+                width: 600px;
+                height: 200px;
                 text-align: center;
-                padding-bottom: 50px;
-                padding-top: 50px;    
+                padding-bottom: 20px;
+                padding-top: 25px;
+                padding-left: 18px;
+                padding-right: 18px;
+                border: black 2px solid;
             }
             
             p {
                 font-family: fantasy;
-                font-size: 20px;
+                font-size: 18px;
+            }
+            
+            #opciones {
+                display: flex;
+                flex-wrap: wrap;
+                width: 740px;
+            }
+            
+            #opciones > div {
+                background-color: aliceblue;
+                font-size: 16px;
+                margin: 8px;
+                padding: 8px;
+                width: 200px;
+                border: black 2px solid;
+            }
+            
+            #contenedor {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            #h1 {
+                text-align: center;
+                width: auto;
             }
         </style>
     </head>
     <body>
-        <h1>This is my GitHub Pages web!</h1>
-        <div><p>Con GitHub podremos modificar nuestra página a distancia, sólo creamos una cuenta con la de Doel, hacemos un "Repository" y cada quien va haciendo cambios desde su casa. ¿Qué opinas?</p></div>
+        <div id="h1">
+            <h1>¿Qué onda raza?</h1>
+        </div>
+        <div id="contenedor">
+            <div id="Saludo"><p>Hola amigos. Estoy haciendo una página web como práctica de mi curso de programación. ¿Les parece si ustedes me dicen cómo quiere que se vea la página para que yo le haga las modificaciones que ustedes quieran? Podríamos hacerla como una especie de recopilador para recuerdos del grupo, o cosas por el estilo. ¿Qué opinan?</p></div>
+            <div id="opciones">
+                <div>1. This is some sample text inside of a div to demo Flexbox</div>
+                <div>2. This is some sample text inside of a div to demo Flexbox</div>
+                <div>3. This is some sample text inside of a div to demo Flexbox</div>
+                <div>4. This is some sample text inside of a div to demo Flexbox</div>
+                <div>5. This is some sample text inside of a div to demo Flexbox</div>
+                <div>6. This is some sample text inside of a div to demo Flexbox</div>
+                <div>7. This is some sample text inside of a div to demo Flexbox</div>
+                <div>8. This is some sample text inside of a div to demo Flexbox</div>
+                <div>9. This is some sample text inside of a div to demo Flexbox</div>
+                <div>10. This is some sample text inside of a div to demo Flexbox</div>
+                <div>11. This is some sample text inside of a div to demo Flexbox</div>
+                <div>12. This is some sample text inside of a div to demo Flexbox</div>
+            </div>
+        </div>
     </body>
 </html>
